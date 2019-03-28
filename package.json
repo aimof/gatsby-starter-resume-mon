@@ -1,0 +1,44 @@
+{
+  "name": "gatsby-starter-resume-mon",
+  "version": "0.0.0",
+  "description": "gatsby starter template for resume name \"mon\"",
+  "scripts": {
+    "build": "gatsby build",
+    "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
+    "lint:scss": "stylelint \"src/**/*.scss\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimof/gatsby-starter-resume-mon.git"
+  },
+  "author": "aimof",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aimof/gatsby-starter-resume-mon/issues"
+  },
+  "homepage": "https://github.com/aimof/gatsby-starter-resume-mon#readme",
+  "dependencies": {
+    "gatsby": "^2.3.3",
+    "gatsby-plugin-google-analytics": "^2.0.18",
+    "gatsby-plugin-react-helmet": "^3.0.11",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^4.2.0"
+  },
+  "keywords": [
+    "gatsby",
+    "starter",
+    "resume"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-styled-components": "^1.10.0",
+    "eslint": "^5.15.3",
+    "eslint-plugin-react": "^7.12.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
