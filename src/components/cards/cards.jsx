@@ -4,12 +4,13 @@ import GridList from '@material-ui/core/GridList'
 import GridListTile from '@material-ui/core/GridListTile'
 import window from 'global'
 
-import StyledTitle from "./styledCommon"
+import StyledTitle from "../common/styledTitle"
 
 import Card from "./card"
 
 const StyledDiv = styled.div`
-padding-top: 100px;
+padding-top: 250px;
+margin-top: 100px;
 position: relative;
 background-color: #112;
 width: 100%;
@@ -17,7 +18,6 @@ width: 100%;
 
 const StyledList = styled.div`
 position: relative;
-top: 200px;
 background-color: #112;
 `
 

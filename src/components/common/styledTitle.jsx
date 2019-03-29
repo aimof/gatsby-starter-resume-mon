@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const StyledTitle = styled.div`
 position absolute;
-top: 100px;
+top: 50px;
 left: 50px;
 background-color: none;
 font-size: 2em;
